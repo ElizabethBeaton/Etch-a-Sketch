@@ -1,0 +1,21 @@
+body {
+  height: 100vh;
+  background-color: #eee;
+}
+
+#grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 640px;
+  height: 640px;
+}
+
+.grid item{
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid #5a6cad;
+  text-align: center;
+  font-size: 12px;
+}
+
